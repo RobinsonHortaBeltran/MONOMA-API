@@ -20,7 +20,7 @@ class UsersDatabaseSeeder extends Seeder
 
         $users = [
             [
-                'username'          => 'tester',
+                'username'          => 'agent',
                 'password'          => '123456',
                 'last_login'        => Carbon::now(),
                 'role'              => 'agent',
